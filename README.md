@@ -246,3 +246,10 @@ console.log("Fibonacci(" + n + ") = " + fibo1(n));
 
 ## Implementation
   ### ScreenShots
+  #### Exercise 1
+  ![image](https://github.com/user-attachments/assets/cd635ab9-187e-47f9-9d12-dd0976afc965)
+ #### Exercise 2
+ ![image](https://github.com/user-attachments/assets/225f8d26-d55a-4da3-8aba-f680b74a6538)
+ #### Exercise 3
+ ![image](https://github.com/user-attachments/assets/f350a88a-cc35-49c4-90c5-0e04ad88d7c4)
+
