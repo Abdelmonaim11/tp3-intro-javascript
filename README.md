@@ -1,1 +1,1 @@
-# TP3  — TD n◦1: Introduction à JavaScript — Types simples, variables et instructions de base
+# TP3  — Introduction to JavaScript — Simple Types, Variables, and Basic Statements
