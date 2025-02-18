@@ -241,6 +241,8 @@ function fibo1(n) {
 var n = prompt("Entrez un entier: ");
 console.log("Fibonacci(" + n + ") = " + fibo1(n));
 ```
+### Exercise 7
+
 
 
 
@@ -259,6 +261,9 @@ console.log("Fibonacci(" + n + ") = " + fibo1(n));
  #### Exercise 5
  ![image](https://github.com/user-attachments/assets/e0861619-f52f-4354-b771-47941fa5e327)
  #### Exercise 6
+![image](https://github.com/user-attachments/assets/88fe4454-b61e-4538-badd-b8e4dc919644)
+#### Exercise 7
+![image](https://github.com/user-attachments/assets/d77d6b1c-4dcd-47fa-92ce-50d336281519)
 
 
 
