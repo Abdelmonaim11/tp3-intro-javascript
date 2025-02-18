@@ -252,4 +252,13 @@ console.log("Fibonacci(" + n + ") = " + fibo1(n));
  ![image](https://github.com/user-attachments/assets/225f8d26-d55a-4da3-8aba-f680b74a6538)
  #### Exercise 3
  ![image](https://github.com/user-attachments/assets/f350a88a-cc35-49c4-90c5-0e04ad88d7c4)
+ #### Exercise 4
+ ![image](https://github.com/user-attachments/assets/d8201c37-19be-450a-8249-2f8e3693af1c)
+ ##### Exercise 4-bis
+ ![image](https://github.com/user-attachments/assets/9d8dba26-5fe5-4447-aef8-86c07bd3da7d)
+ #### Exercise 5
+ ![image](https://github.com/user-attachments/assets/e0861619-f52f-4354-b771-47941fa5e327)
+ #### Exercise 6
+
+
 
