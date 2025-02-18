@@ -132,3 +132,40 @@ function fibo1(n) {
 }
 var n = prompt("Entrez un entier: ");
 console.log("Fibonacci(" + n + ") = " + fibo1(n));
+function fibo2(limit) {
+  let a = 0,
+    b = 1,
+    index = 1;
+
+  while (b <= limit) {
+    [a, b] = [b, a + b];
+    index++;
+  }
+
+  return { valeur: b, rang: index };
+}
+var limite = prompt("Entrez une valeur limite: ");
+var resultat = fibo2(Number(limite));
+console.log(
+  "Premier terme de Fibonacci supérieur à " +
+    limite +
+    " est F(" +
+    resultat.rang +
+    ") = " +
+    resultat.valeur
+);
+console.log("-------------------Exercise 7-------------------");
+function Raca1(A) {
+  let u = A / 2;
+  while (Math.abs(u * u - A) >= 1e-5) {
+    u = (u + A / u) / 2;
+  }
+  return u;
+}
+
+var A = parseFloat(prompt("Pour un nombre A entre 1 et 100: "));
+if (A >= 1 && A <= 100) {
+  console.log("Valeur approchée de la racine carrée = " + Raca1(A));
+} else {
+  console.log("Veuillez entrer un nombre entre 1 et 100.");
+}
