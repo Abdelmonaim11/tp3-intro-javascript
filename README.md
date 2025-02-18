@@ -242,9 +242,32 @@ var n = prompt("Entrez un entier: ");
 console.log("Fibonacci(" + n + ") = " + fibo1(n));
 ```
 ### Exercise 7
+The goal of this exercise is to implement an iterative numerical method in JavaScript to approximate the square root of a given positive real number A using the recurrence relation:
+                      ![image](https://github.com/user-attachments/assets/3f83e570-0013-4099-b432-fd524b49e918)
 
+where the sequence (U𝑛) converges towards sqrt(A).
+The program should:
+- Start with the initial value `U0 = A/2`
+-  Iterate until finding `u_n` such that `|u_n^2 - A| < 10^(-5)`, ensuring a sufficiently accurate approximation of `√A`.
+-  Display the computed approximation of `√A`
 
+This exercise reinforces concepts of numerical methods, loops, and precision handling in JavaScript.
+```javascript
+function Raca1(A) {
+  let u = A / 2;
+  while (Math.abs(u * u - A) >= 1e-5) {
+    u = (u + A / u) / 2;
+  }
+  return u;
+}
 
+var A = parseFloat(prompt("Pour un nombre A entre 1 et 100: "));
+if (A >= 1 && A <= 100) {
+  console.log("Valeur approchee de la racine carree = " + Raca1(A));
+} else {
+  console.log("Veuillez entrer un nombre entre 1 et 100.");
+}
+```
 
 ## Implementation
   ### ScreenShots
